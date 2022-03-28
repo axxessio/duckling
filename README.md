@@ -2,6 +2,8 @@
 
 # Duckling [![Support Ukraine](https://img.shields.io/badge/Support-Ukraine-FFD500?style=flat&labelColor=005BBB)](https://opensource.fb.com/support-ukraine) [![Build Status](https://travis-ci.org/facebook/duckling.svg?branch=master)](https://travis-ci.org/facebook/duckling)
 
+ATTENTION: This is a fork with many changes for the german language maintained by axxessio GmbH. Use branch "all_fixes"
+
 Duckling is a Haskell library that parses text into structured data.
 
 ```bash
