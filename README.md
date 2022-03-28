@@ -89,6 +89,12 @@ To regenerate the classifiers and run the test suite:
 stack build :duckling-regen-exe && stack exec duckling-regen-exe && stack test
 ```
 
+To only run the tests for a specific language run:
+```bash
+regen-exe && stack exec duckling-regen-exe && stack test --ta '-p "DE Tests"'
+```
+Change "DE" to the identifier of the language you want the tests to run for.
+
 It's important to regenerate the classifiers after updating the code and before
 running the test suite.
 
